@@ -1,0 +1,50 @@
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 50px 20px cornflowerblue;
+    background-color: rgb(15, 129, 145);
+}
+
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 15px 5px;
+    font-size: 25px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999; 
+}
+
+.buttons{
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer
+}
+
+.num:hover{
+    background-color: rgb(223, 175, 191);
+}
+.calc:hover{
+    background-color: rgb(129, 194, 129);
+}
+#equal{
+    background-color: rgb(31, 119, 23);
+}
+.C{
+    background-color: rgb(173, 74, 38);
+}
+.Er{
+    background-color: rgb(175, 175, 36);
+}
